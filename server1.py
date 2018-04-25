@@ -20,7 +20,7 @@ def  inherits ():
 def  inherits_one ():
 	return  render_template('inherit1.html')
 
-@app.route('/	inherits/two/')
+@app.route('/inherits/two/')
 def  inherits_two ():
 	return  render_template('inherit2.html')
 if  __name__  == ("__main__"):
